@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-  color: #8bb7ff;
+  color: #406195;
 }
 
 
@@ -75,7 +75,7 @@ h3{
     width: 500px;
 }
 
-#titulo{
+#titulos{
     margin-top: 80px;
     margin-left: 40px;
 }
@@ -129,8 +129,26 @@ p{
     display: flex;
     flex-direction: row;
 }
-#tituloSobre{
+#titulo2{
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#tituloProjetos{
+    color: white;
     font-size: 30px;
     margin-top: 30px;
+    margin-left: 50px;
+}
+#titulo3{
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
     margin-left: 700px;
+}
+#chapeu{
+    height: 130px;
+    width: 100px;
+
 }
