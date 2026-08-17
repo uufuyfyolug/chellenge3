@@ -101,6 +101,16 @@ p{
         height: 50px;
         
     }
+    #img2{
+        width: 60px;
+        margin-right: -100px;
+        height: 60px;
+    }
+     #img3{
+        width: 60px;
+        margin-left: -90px;
+        height: 60px;
+    }
 #logos{
     display: flex;
     justify-items: center;
@@ -109,7 +119,12 @@ p{
     margin-right: 400px;
     margin-top:60px;
     }
-
+    #links {
+    display: flex;
+    margin-left: -200px;
+    margin-top: 25px;
+   
+}
     #fotoVisualisar{
         height: 300px;
         width: 500px;
@@ -152,3 +167,4 @@ p{
     width: 100px;
 
 }
+
