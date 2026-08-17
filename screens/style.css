@@ -1,11 +1,134 @@
-header{
-    background-color: #1C4694;
-    height: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:#292929;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #8ABBFF;
+  display: flex;
+  align-items: center;
+  padding: 15px 35px;
+}
+
+
+/* FOTO */
+
+#foto {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+a {
+  display: flex;
+  gap: 110px;
+  margin-left: 280px;
+}
+
+ a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #8bb7ff;
+}
+
+
+main {
+  padding: 75px 28px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+h2{
+    font-size: 20px;
+  margin-bottom: 5px;
+  color:#8ABBFF;
+}
+h3{
+    font-size: 15px;
+    margin-top: 0;
+    color: #C3C3C3;
+    width: 500px;
+}
+
+#titulo{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.estrela {
+    position: fixed;
+    font-size: 600px;
+    right: -65px;
+    bottom: -150px;
+    color: #8ABBFF;
+    opacity: 0.6;
+    transform: rotate(-15deg);
+    filter: blur(20px);
+    border-radius: 40px;
+    z-index: -1;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+#img{
+        width: 50px;
+        height: 50px;
+        
+    }
+#logos{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top:60px;
+    }
+
+    #fotoVisualisar{
+        height: 300px;
+        width: 500px;
+        border-radius: 30px;
+        margin-top: 100px;
+        margin-left: 100px;
+        border: 4px solid white;
+    }
     
+#texto{
+    color:#C3C3C3 ;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 180px;
 }
-body{
-    background-color: #2B2B2B;
+#sobre{
+    display: flex;
+    flex-direction: row;
 }
-#projetos{
-    color: white;
+#tituloSobre{
+    
 }
