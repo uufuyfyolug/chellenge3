@@ -220,3 +220,39 @@ p {
   margin-top: 11.25em;
 text-decoration: none;
 }
+h4{
+margin-left: 2.7em;
+font-size: 1.5em;
+
+}
+#MSkills{
+  margin-left: 25em;
+  font-size: 2em;
+  color: white;
+}
+#skills{
+  display: flex;
+  flex-direction: row;
+}
+.texto3{
+ 
+}
+#Soft{
+  background-color: #8ABBFF;
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  margin-left: 25em;
+  height: 3;
+  border-radius: 2em;
+}
+#Hard{
+  background-color: #8ABBFF;
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  margin-left: 25em;
+  height: 3;
+  border-radius: 2em;
+  
+}
