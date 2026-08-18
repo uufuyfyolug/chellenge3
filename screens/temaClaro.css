@@ -11,8 +11,8 @@ body.claro h3{
 }
 
 #iconeTema {
-    width: 30px;
-    height: 30px;
+    width: 3em;
+    height: 3em;
 }
 body.claro #titulo2,
 body.claro #tituloProjetos,
@@ -26,7 +26,7 @@ body.claro #texto {
 #tema{
     background-color: #6ba1ee;
     border: none;
-    border-radius: 40px;
+    border-radius: 10em;
 }
 body.claro #Loom{
     color:#1a1a1a;
