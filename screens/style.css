@@ -212,3 +212,11 @@ p {
   display: flex;
   justify-content: center;
 }
+
+#texto2{
+  color: #C3C3C3;
+  width: 31.25em;
+  margin-left: 3.125em;
+  margin-top: 11.25em;
+text-decoration: none;
+}
