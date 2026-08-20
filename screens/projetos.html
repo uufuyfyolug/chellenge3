@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,31 +9,28 @@
     <link rel="stylesheet" href="temaClaro.css">
     <title>projetos</title>
 </head>
+
 <body>
-    <header>
-         <img src="imagens/IMG_20260627_123206.jpg" alt="foto" id="foto">
+    <div>
+ <header>
+        <img src="imagens/IMG_20260627_123206.jpg" alt="foto" id="foto">
         <a href="index.html" id="a">Início</a>
         <a href="projetos.html" id="a">Projetos</a>
         <a href="sobre.html" id="a">Sobre</a>
-         <button id="tema"><img src="imagens/brilho-do-sol.png" alt="" id="iconeTema"></button>
+        <button id="tema"><img src="imagens/brilho-do-sol.png" alt="" id="iconeTema"></button>
     </header>
-    <p id="titulo2">Destaques</p>
-    <div id="Destaques">
-         <a href="https://github.com/uufuyfyolug/Loom.git" id="Loom" >Loom - Ecos do espelho</a>
+        <h2 id="tituloProjetos">Projetos em Destaque</h2>
+    <div class="carrossel">
+        <button onclick="Voltar()">←</button>
+        <img src="imagens/images.png" alt="" id="projetos">
+        <button onclick="avancar()">→</button>
+    </div>
 
+    <span class="estrela">&#9733;</span>
     </div>
-    <p id="tituloProjetos">Projetos</p>
-    <div id="projetos">
-        <div id="PRojeto1">
-        <a href="https://github.com/uufuyfyolug/Feliz-Natal.git" id="texto2" >
-            <img src="imagens/chapeu.png" alt="" id="chapeu" >
-        </a>
-        <p id="textoProjetos" >Este é um projeto que fiz para dar Feliz Natal para meus amigos</p>
-        </div>
-        
-    </div>
-        <span class="estrela">&#9733;</span>
+   
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -85,16 +85,16 @@ h3 {
 
 
 .estrela {
-position: fixed; 
-font-size: 600px; 
-right: -65px; 
-bottom: -150px; 
-color: #8ABBFF; 
-opacity: 0.6; 
-transform: rotate(-15deg); 
-filter: blur(20px); 
-border-radius: 40px; 
-z-index: -1;
+  position: fixed;
+  font-size: 600px;
+  right: -65px;
+  bottom: -150px;
+  color: #8ABBFF;
+  opacity: 0.6;
+  transform: rotate(-15deg);
+  filter: blur(20px);
+  border-radius: 40px;
+  z-index: -1;
 }
 
 
@@ -174,14 +174,6 @@ p {
 }
 
 
-#tituloProjetos {
-  color: white;
-  font-size: 1.875em;
-  margin-top: 1.875em;
-  margin-left: 3.125em;
-}
-
-
 #titulo3 {
   color: white;
   font-size: 2.5em;
@@ -192,52 +184,26 @@ p {
 }
 
 
-#chapeu {
-  height: 8.125em;
-  width: 6.25em;
-}
-
-
-#Loom {
-  display: flex;
-  justify-content: center;
-  color: white;
-  text-decoration: none;
-  font-size: 1.25em;
-  font-weight: 600;
-}
-
-
-#projetos {
-  display: flex;
-  justify-content: center;
-}
-
-#texto2{
-  color: #C3C3C3;
-  width: 31.25em;
-  margin-left: 3.125em;
-  margin-top: 11.25em;
-text-decoration: none;
-}
-h4{
-margin-left: 2.7em;
-font-size: 1.5em;
+h4 {
+  margin-left: 2.7em;
+  font-size: 1.5em;
 
 }
-#MSkills{
+
+#MSkills {
   margin-left: 25em;
   font-size: 2em;
   color: white;
 }
-#skills{
+
+#skills {
   display: flex;
   flex-direction: row;
 }
-.texto3{
- 
-}
-#Soft{
+
+.texto3 {}
+
+#Soft {
   background-color: #8ABBFF;
   display: flex;
   flex-direction: column;
@@ -246,7 +212,8 @@ font-size: 1.5em;
   height: 3;
   border-radius: 2em;
 }
-#Hard{
+
+#Hard {
   background-color: #8ABBFF;
   display: flex;
   flex-direction: column;
@@ -254,12 +221,41 @@ font-size: 1.5em;
   margin-left: 25em;
   height: 3;
   border-radius: 2em;
-  
+
 }
-#textoProjetos{
-  width: 10em;
+h2{
+  color: white;
+  font-size: 2.8em;
+  margin-left: 15.8em;
+  margin-top: 4em;
 }
-#Projeto1{
-display: flex;
-flex-direction: row;
+
+.carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 10em;
 }
+
+.carrossel img {
+  width: 30em;
+  height: 20em;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.carrossel button {
+  border: none;
+  background-color: #8ABBFF;
+  color: white;
+  font-size: 2em;
+  padding: 0.3em 0.6em;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+.carrossel button:hover {
+  background-color: #659ee9;
+}
+

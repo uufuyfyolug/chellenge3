@@ -35,3 +35,30 @@ botaoTema.addEventListener("click", function () {
     }
 
 });
+
+const imagens = [
+    "imagens/images.png",
+    "imagens/conecte-se.png",
+    "imagens/chapeu.png",
+    "imagens/catalogo.png"
+]
+
+let imagemAtual = 0;
+
+function avancar() {
+    imagemAtual++;
+
+    if (imagemAtual >= imagens.length) {
+        imagemAtual = 0;
+    }
+    document.getElementById("projetos").src = imagens[imagemAtual]
+
+
+}
+function Voltar() {
+    imagemAtual--;
+    if (imagemAtual < 0) {
+        imagemAtual = imagens.length - 1;
+    }
+    document.getElementById("projetos").src = imagens[imagemAtual];
+}
