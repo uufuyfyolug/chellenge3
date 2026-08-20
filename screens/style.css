@@ -11,7 +11,9 @@ body {
   color: white;
   font-family: 'Roboto Mono', monospace;
 }
-
+body{
+   background: linear-gradient(180deg, #292929, #222f41);
+}
 
 /* HEADER */
 
@@ -62,12 +64,14 @@ h1 {
   font-size: 3.125em;
   margin-top: 0;
   margin-bottom: 0.3125em;
+  text-shadow:5px 5px 10px #6ba1ee;
 }
 
-h2 {
+#subtitulo {
   font-size: 1.25em;
   margin-bottom: 0.3125em;
   color: #8ABBFF;
+  margin-left: 0em;
 }
 
 h3 {
@@ -81,6 +85,7 @@ h3 {
 #titulos {
   margin-top: 5em;
   margin-left: 2.5em;
+  
 }
 
 
@@ -201,13 +206,25 @@ h4 {
   flex-direction: row;
 }
 
-.texto3 {}
+#SoftText{
+  text-shadow:2px 2px 5px #292929;
+  font-size: 3em;
+  margin-left: 0.1em;
+}
+#HardText{
+  text-shadow:2px 2px 5px #292929;  
+  font-size: 3em;
+  margin-left: 0.1em;
+}
+.texto3 {
+  font-size: 1.5em;
+}
 
 #Soft {
   background-color: #8ABBFF;
   display: flex;
   flex-direction: column;
-  width: 20em;
+  width: 21em;
   margin-left: 25em;
   height: 3;
   border-radius: 2em;
@@ -217,7 +234,7 @@ h4 {
   background-color: #8ABBFF;
   display: flex;
   flex-direction: column;
-  width: 20em;
+  width: 21em;
   margin-left: 25em;
   height: 3;
   border-radius: 2em;
@@ -259,3 +276,6 @@ h2{
   background-color: #659ee9;
 }
 
+#tituloProjetos{
+  text-shadow:2px 2px 5px #6ba1ee;
+}

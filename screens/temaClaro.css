@@ -15,11 +15,12 @@ body.claro h3{
     height: 3em;
 }
 body.claro #titulo2,
-body.claro #tituloProjetos,
+body.claro #tituloProjetos{
+    text-shadow:2px 2px 5px #6ba1ee;
+}
 body.claro #titulo3 {
     color: black;
 }
-
 body.claro #texto {
     color: #313131;
 }
@@ -35,8 +36,24 @@ body.claro #fotoVisualisar{
     border-color: #313131;
 }
 body.claro #MSkills{
-    color:#1a1a1a
+    color:#1a1a1a;
+    text-shadow: 2px 2px 5px #6ba1ee;
 }
 body.claro p{
     color:#1a1a1a
+}
+body.claro #SoftText{
+    color:#ddeaff;
+}
+body.claro #HardText{
+    color:#ddeaff;
+}
+body.claro #tituloProjetos{
+    color: #111;
+}
+body.claro {
+   background: linear-gradient(180deg, #dbeaff, #94c0fd);
+}
+body.claro .estrela{
+    color: #5789ce;
 }
